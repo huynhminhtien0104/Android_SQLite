@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="QUẢN LÝ SINH VIÊN"
+            android:textSize="30dp"
+            ></TextView>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Student ID"></TextView>
+        <EditText
+            android:hint="Student ID"
+            android:id="@+id/edtID"
+            android:layout_weight="40dp"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Student name"></TextView>
+        <EditText
+            android:hint="Student name"
+            android:id="@+id/edtName"
+            android:layout_weight="40dp"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Add Student"></Button>
+    </TableRow>
+</TableLayout>
